@@ -6,4 +6,6 @@
 }
 .nav {
     display: flex;
+    width: 750 px;
+    margin: auto;
 }
