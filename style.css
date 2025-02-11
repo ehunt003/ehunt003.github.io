@@ -1,3 +1,10 @@
+/*  --chili-red: #f2281eff;
+    --orange-peel: #fea000ff;
+    --avocado: #4d8a00ff;
+    --sapphire: #0250b2ff;
+    --rebecca-purple: #6d399eff;
+    */
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
@@ -9,3 +16,54 @@
     width: 750 px;
     margin: auto;
 }
+
+a {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    color:#f2281e;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    margin: auto;
+}
+
+button{
+    padding: 15px 30px;
+    margin: 10px;
+    width: 150px;
+ }
+
+button:hover{
+    cursor: pointer;
+    background-color:whitesmoke;
+}
+
+  
+.dropdown:hover .dropdown-options {
+    display: block;
+}
+
+.dropdown-options a {
+    display: block;
+    margin: auto;
+}
+
+.dropdown-options a:hover {
+    border-radius:5px;
+}
+ 
+.container > div {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 20px;
+}
+  
