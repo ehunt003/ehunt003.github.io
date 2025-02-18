@@ -47,13 +47,21 @@ button:hover{
   gap: 20px;
 }
   
+.dropdown{
+    position: absolute;
+    margin: 0 0;
+    padding: 0 0;
+}
+
 .dropbtn {
-    padding: 15px 30px;
+    position: relative;
+    margin: 15px 0;
 }
 
 .dropdown {
     position: relative;
     display: inline-block;
+    padding: 0 15px;
 }
 
 .dropdown-content {
@@ -68,8 +76,56 @@ button:hover{
     display: block;
     color: black;
     text-decoration: none;
-    padding: 12px 16px;
+    margin: 10px;
 
 }
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    margin: 0;
+}
+
+
+.red{
+    color: #f2281e;
+}
+
+.orange{
+    color: #fea000;
+}
+
+.major{
+    color: #4d8a00;
+}
+
+.honors{
+    color: #0250b2;
+}
+
+.elec{
+    color: #6d399e;
+}
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 0 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    position: relative;
+    z-index: 100;
+  }*/
